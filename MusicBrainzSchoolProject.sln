@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBrainzSchoolProject", "MusicBrainzSchoolProject\MusicBrainzSchoolProject.csproj", "{0B0C875B-7290-470D-9EC7-CD5691E5B7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBrainzServiceAgent", "..\MusicBrainzServiceAgent\MusicBrainzServiceAgent\MusicBrainzServiceAgent.csproj", "{F8EA0287-F9B6-4EF2-8066-446EE6E475E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B0C875B-7290-470D-9EC7-CD5691E5B7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0C875B-7290-470D-9EC7-CD5691E5B7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0C875B-7290-470D-9EC7-CD5691E5B7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0C875B-7290-470D-9EC7-CD5691E5B7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EA0287-F9B6-4EF2-8066-446EE6E475E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EA0287-F9B6-4EF2-8066-446EE6E475E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EA0287-F9B6-4EF2-8066-446EE6E475E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EA0287-F9B6-4EF2-8066-446EE6E475E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5191A9C4-F8DC-4642-9061-283A1FE613DD}
+	EndGlobalSection
+EndGlobal

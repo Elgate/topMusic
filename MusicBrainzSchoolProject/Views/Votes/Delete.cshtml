@@ -1,0 +1,65 @@
+﻿@model MusicBrainzSchoolProject.Models.Votes
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Votes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Albums.MBID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Albums.MBID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Albums1.MBID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Albums1.MBID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Albums2.MBID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Albums2.MBID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Users.Oauth_provider)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Users.Oauth_provider)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

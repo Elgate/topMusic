@@ -1,0 +1,59 @@
+﻿@model MusicBrainzSchoolProject.Models.Votes
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Votes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Albums.MBID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Albums.MBID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Albums1.MBID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Albums1.MBID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Albums2.MBID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Albums2.MBID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Users.Oauth_provider)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Users.Oauth_provider)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
